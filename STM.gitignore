@@ -1,0 +1,20 @@
+# STM32CubeIDE build directories
+.settings/
+.metadata/
+Debug/
+Release/
+
+# STM32CubeMX generated files
+.cproject
+.project
+.externalToolBuilders/
+
+# STM32CubeIDE specific files
+.build/
+.dep/
+*.elf
+*.bin
+*.map
+*.hex
+*.d
+*.a
