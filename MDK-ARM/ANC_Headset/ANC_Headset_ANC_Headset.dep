@@ -1,0 +1,1396 @@
+Dependencies for Project 'ANC_Headset', Target 'ANC_Headset': (DO NOT MODIFY !)
+CompilerVersion: 6210000::V6.21::ARMCLANG
+F (startup_stm32f407xx.s)(0x67F6A748)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 539" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F407xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o anc_headset/startup_stm32f407xx.o)
+F (../Core/Src/main.c)(0x67F6BE02)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/main.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+I (..\USB_HOST\App\usb_host.hr:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+F (../Core/Src/stm32f4xx_it.c)(0x67F6A746)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_it.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_it.h)(0x67ED7439)
+F (../Core/Src/stm32f4xx_hal_msp.c)(0x67ED7439)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_msp.o -MD)
+I (..\Core\Inc\main.h4.\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x00000000)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../USB_HOST/App/usb_host.c)(0x67CBC991)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/usb_host.o -MD)
+I (..\USB_HOST\App\usb_host.h)(0x67CBC992)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_core.h)(0x67ACEDDF)
+I (..\USB_HOST\Target\usbh_conf.hs:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x656A66E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x656A66E2)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_def.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_ioreq.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_pipes.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_ctlreq.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Inc\usbh_cdc.h)(0x67ACEDDF)
+F (../USB_HOST/Target/usbh_conf.c)(0x67CBC992)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/usbh_conf.o -MD)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_core.h)(0x67ACEDDF)
+I (..\USB_HOST\Target\usbh_conf.hs:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x656A66E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_def.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_ioreq.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_pipes.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_ctlreq.h)(0x67ACEDDF)
+I (..\USB_HOST\Target\usbh_platform.hi.\USB_HOST\App\usb_host.h)(0x00000000)
+F (../USB_HOST/Target/usbh_platform.c)(0x67CBC992)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/usbh_platform.o -MD)
+I (..\USB_HOST\Target\usbh_platform.h)(0x67CBC992)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_hcd.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_ll_usb.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_rcc.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_rcc_ex.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_flash.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_flash_ex.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_flash_ramfunc.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_gpio.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_dma_ex.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_dma.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_pwr.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_pwr_ex.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_cortex.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_exti.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_dac.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_dac_ex.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_i2c.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_i2c_ex.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_i2s.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_i2s_ex.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_tim.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/stm32f4xx_hal_tim_ex.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Core/Src/system_stm32f4xx.c)(0x67ACEDDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/system_stm32f4xx.o -MD)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+F (../Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c)(0x67ACEDDF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/usbh_core.o -MD)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_core.h)(0x67ACEDDF)
+I (..\USB_HOST\Target\usbh_conf.hs:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x656A66E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_def.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_ioreq.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_pipes.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_ctlreq.h)(0x67ACEDDF)
+F (../Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c)(0x67ACEDDF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/usbh_ctlreq.o -MD)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_ctlreq.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_core.h)(0x67ACEDDF)
+I (..\USB_HOST\Target\usbh_conf.hs:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x656A66E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_def.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_ioreq.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_pipes.h)(0x67ACEDDF)
+F (../Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c)(0x67ACEDDF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/usbh_ioreq.o -MD)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_ioreq.h)(0x67ACEDDF)
+I (..\USB_HOST\Target\usbh_conf.hs:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x656A66E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_core.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_def.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_pipes.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_ctlreq.h)(0x67ACEDDF)
+F (../Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c)(0x67ACEDDF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/usbh_pipes.o -MD)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_pipes.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_core.h)(0x67ACEDDF)
+I (..\USB_HOST\Target\usbh_conf.hs:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x656A66E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_def.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_ioreq.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_ctlreq.h)(0x67ACEDDF)
+F (../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c)(0x67ACEDDF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_ANC_Headset-IC:/Users/lamin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o anc_headset/usbh_cdc.o -MD)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Inc\usbh_cdc.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_core.h)(0x67ACEDDF)
+I (..\USB_HOST\Target\usbh_conf.hs:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x656A66E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x67ACEDDE)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x67ED7439)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x67ACEDDE)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x67ACED96)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_version.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_compiler.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\cmsis_armclang.h)(0x67ACED96)
+I (C:\Users\lamin\OneDrive\Desktop\Senior Design Software\ANC_2.0\ANC_Headset\Drivers\CMSIS\Include\mpu_armv7.h)(0x67ACED96)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x67ACEDDE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x656A66E2)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x67ACEDDE)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x67ACEDDE)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_def.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_ioreq.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_pipes.h)(0x67ACEDDF)
+I (..\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_ctlreq.h)(0x67ACEDDF)
