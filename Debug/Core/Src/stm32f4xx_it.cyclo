@@ -1,0 +1,13 @@
+../Core/Src/stm32f4xx_it.c:67:6:check_stack_overflow2	2
+../Core/Src/stm32f4xx_it.c:96:6:NMI_Handler	1
+../Core/Src/stm32f4xx_it.c:111:6:HardFault_Handler	1
+../Core/Src/stm32f4xx_it.c:135:6:MemManage_Handler	1
+../Core/Src/stm32f4xx_it.c:150:6:BusFault_Handler	1
+../Core/Src/stm32f4xx_it.c:165:6:UsageFault_Handler	1
+../Core/Src/stm32f4xx_it.c:180:6:SVC_Handler	1
+../Core/Src/stm32f4xx_it.c:193:6:DebugMon_Handler	1
+../Core/Src/stm32f4xx_it.c:206:6:PendSV_Handler	1
+../Core/Src/stm32f4xx_it.c:219:6:SysTick_Handler	1
+../Core/Src/stm32f4xx_it.c:240:6:DMA1_Stream0_IRQHandler	1
+../Core/Src/stm32f4xx_it.c:255:6:TIM2_IRQHandler	1
+../Core/Src/stm32f4xx_it.c:268:6:HardFault_HandlerC	1

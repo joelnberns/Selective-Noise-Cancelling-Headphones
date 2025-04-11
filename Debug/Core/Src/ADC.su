@@ -1,0 +1,4 @@
+../Core/Src/ADC.c:12:9:ADC_Init	16	static
+../Core/Src/ADC.c:94:19:ADC_Reset	8	static
+../Core/Src/ADC.c:99:19:ADC_RegWrite	32	static
+../Core/Src/ADC.c:103:19:ADC_RegRead	32	static

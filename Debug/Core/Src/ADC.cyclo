@@ -1,0 +1,4 @@
+../Core/Src/ADC.c:12:9:ADC_Init	1
+../Core/Src/ADC.c:94:19:ADC_Reset	1
+../Core/Src/ADC.c:99:19:ADC_RegWrite	1
+../Core/Src/ADC.c:103:19:ADC_RegRead	1
