@@ -10,7 +10,7 @@
 
 #include <stdint.h>
 //#define DELAY_MAX_LINE_LENGTH 5000
-#define DELAY_MAX_LINE_LENGTH 10
+#define DELAY_MAX_LINE_LENGTH 30
 
 
 typedef struct {
