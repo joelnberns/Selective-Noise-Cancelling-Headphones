@@ -52,7 +52,7 @@
 #define SAMPLING_RATE 	48000
 #define SIN_FREQ		1000
 #define BUFFER_LENGTH 	SAMPLING_RATE / SIN_FREQ
-#define VOLUME 1.5
+#define VOLUME 50
 
 /* USER CODE END PM */
 
@@ -65,7 +65,6 @@ I2C_HandleTypeDef hi2c3;
 I2S_HandleTypeDef hi2s1;
 I2S_HandleTypeDef hi2s2;
 I2S_HandleTypeDef hi2s3;
-DMA_HandleTypeDef hdma_spi1_rx;
 DMA_HandleTypeDef hdma_spi2_rx;
 DMA_HandleTypeDef hdma_spi3_rx;
 
@@ -73,8 +72,6 @@ DMA_HandleTypeDef hdma_spi3_rx;
 
 int16_t inData[BUFFER_SIZE] __attribute__((aligned(4)));
 
-static int16_t i2s_buffer_mic1[BUFFER_SIZE];  // Mic1 - I2S3
-static int16_t i2s_buffer_mic2[BUFFER_SIZE];  // Mic2 - I2S2
 
 
 static volatile int16_t *inBufPtr;
@@ -83,7 +80,6 @@ static volatile int16_t *inBufPtr;
 uint16_t dac_value;
 uint16_t dataReadyFlag = 0;
 
-float outTest;
 
 
 //HighPass_FirstOrder hpFilt;
@@ -115,6 +111,8 @@ static void MX_I2S1_Init(void);
 void HAL_I2S_RxHalfCpltCallback(I2S_HandleTypeDef *hi2s) {
 	inBufPtr = &inData[0];
 	dataReadyFlag = 1;
+
+
 }
 
 void HAL_I2S_RxCpltCallback(I2S_HandleTypeDef *hi2s) {
@@ -157,14 +155,16 @@ void processData(LowPass_FirstOrder *lpFilt, HighPass_FirstOrder *hpFilt) {
 	static float rightDelayed;
 	static float out;
 
-	//float out = Delay_Update(&dly, sample_i2s) * 5;
+	int16_t leftInverted;
+	int16_t rightInverted;
+	uint16_t leftInvertedShift;
+	uint16_t rightInvertedShift;
+
+
 	for (uint8_t n = 0; n < (BUFFER_SIZE/2) - 1; n += 2) {
 
-		left = (inBufPtr[n] * INT16_TO_FLOAT); // + 0.0537;
+		left = (inBufPtr[n] * INT16_TO_FLOAT);
 
-
-		//left = LowPass_FirstOrder_Update(lpFilt, left);
-		//left = HighPass_FirstOrder_Update(hpFilt, left);
 
 		if (left > 1.0f) {
 			left = 1.0f;
@@ -174,11 +174,8 @@ void processData(LowPass_FirstOrder *lpFilt, HighPass_FirstOrder *hpFilt) {
 
 		}
 
-		right = (inBufPtr[n+1] * INT16_TO_FLOAT); // + 0.054565;
+		right = (inBufPtr[n+1] * INT16_TO_FLOAT);
 
-
-		//right = LowPass_FirstOrder_Update(lpFilt, right);
-		//right = HighPass_FirstOrder_Update(hpFilt, right);
 		rightDelayed = Delay_Update(&dly, right);
 
 		if (rightDelayed > 1.0f) {
@@ -203,44 +200,24 @@ void processData(LowPass_FirstOrder *lpFilt, HighPass_FirstOrder *hpFilt) {
 			out = -1;
 		}
 
-		outTest = out;
 
-		dac_value = (uint16_t)((out + 1.0f) * 2047.5f);
+		dac_value = (uint16_t)(((int32_t)(out * 2047.0f)) + 2048);
 
 		if (dac_value > 4095) {
 			out = 4095;
 		}
 
-		outTest = out;
 		HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_R, dac_value);
-		//DACPtr[n] = dac_value;
-		//DACPtr[n+1] = dac_value;
-		//printf("n: %d \n", n);
-		//printf("left: %d \n", (int16_t)(left*32768.0f));
-		//printf("right: %d \n", (int16_t)(rightDelayed*32768.0f));
+
 
 
 	}
 
-}
 
-/*
-void processDataADC() {
-	float in;
-
-	for (int n = 0; n < BUFFER_LENGTH*2; n++) {
-		in = sin(2 * 3.14 * SIN_FREQ * n / SAMPLING_RATE);
-
-
-
-		dac_value = (int16_t)(in*VOLUME);
-
-		HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_R, dac_value);
-	}
 
 }
 
-*/
+
 
 /* USER CODE END 0 */
 
@@ -293,19 +270,15 @@ int main(void)
  */
 
 
-
+  //DWT_Init();
   HAL_DAC_Start(&hdac, DAC_CHANNEL_2);
   HAL_I2S_Receive_DMA(&hi2s3, (uint16_t *)inData, BUFFER_SIZE);
-  HAL_I2S_Receive_DMA(&hi2s1 , (uint16_t *)i2s_buffer_mic1, BUFFER_SIZE); // Mic1
-  HAL_I2S_Receive_DMA(&hi2s2, (uint16_t *)i2s_buffer_mic2, BUFFER_SIZE); // Mic2
-  //HAL_DAC_Start_DMA(&hdac, DAC_CHANNEL_2, (uint16_t*)DacBuffer, BUFFER_SIZE, DAC_ALIGN_12B_R);
+
   // 500 hz: delay = 1 ms
   float delayTime = 0.4081632653;;
   Delay_Init(&dly, delayTime, 1, 0, SAMPLING_RATE);
 
 
-
-  //ADC_Init();
 
   LowPass_FirstOrder *lpFilt = (LowPass_FirstOrder*)malloc(sizeof(LowPass_FirstOrder));
   HighPass_FirstOrder *hpFilt = (HighPass_FirstOrder*)malloc(sizeof(HighPass_FirstOrder));
@@ -315,12 +288,9 @@ int main(void)
   }
 
   LowPass_FirstOrder_Init(lpFilt, 2000.0f, SAMPLING_RATE);
-  HighPass_FirstOrder_Init(hpFilt, 100.0f, SAMPLING_RATE);
   EQ_init(&eq, SAMPLING_RATE);
-  EQ_setParam(&eq, 150, 1.5, 50);
-  //EQ_setParam()
+  EQ_setParam(&eq, 200, 5, 80);
 
-  //HAL_ADC_Start(&hadc1);
 
 
 
@@ -338,8 +308,7 @@ int main(void)
 	   if (dataReadyFlag) {
 		   dataReadyFlag = 0;
 		   processData(lpFilt, hpFilt);
-	    //processDataNoDelay();
-	    //processDataADC();
+
 	    }
 
 	  }
@@ -603,7 +572,6 @@ static void MX_DMA_Init(void)
 
   /* DMA controller clock enable */
   __HAL_RCC_DMA1_CLK_ENABLE();
-  __HAL_RCC_DMA2_CLK_ENABLE();
 
   /* DMA interrupt init */
   /* DMA1_Stream0_IRQn interrupt configuration */
@@ -615,9 +583,6 @@ static void MX_DMA_Init(void)
   /* DMA1_Stream6_IRQn interrupt configuration */
   HAL_NVIC_SetPriority(DMA1_Stream6_IRQn, 0, 0);
   HAL_NVIC_EnableIRQ(DMA1_Stream6_IRQn);
-  /* DMA2_Stream0_IRQn interrupt configuration */
-  HAL_NVIC_SetPriority(DMA2_Stream0_IRQn, 0, 0);
-  HAL_NVIC_EnableIRQ(DMA2_Stream0_IRQn);
 
 }
 
@@ -628,6 +593,7 @@ static void MX_DMA_Init(void)
   */
 static void MX_GPIO_Init(void)
 {
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
 /* USER CODE BEGIN MX_GPIO_Init_1 */
 /* USER CODE END MX_GPIO_Init_1 */
 
@@ -636,6 +602,16 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
   __HAL_RCC_GPIOC_CLK_ENABLE();
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_6, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin : PC6 */
+  GPIO_InitStruct.Pin = GPIO_PIN_6;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
